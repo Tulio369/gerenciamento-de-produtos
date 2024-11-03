@@ -1,0 +1,16 @@
+# Ignorar arquivos de build
+/build/
+*.o
+*.a
+*.so
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar diretórios de configurações pessoais
+.vscode/
+.idea/
+
+# Ignorar arquivos sensíveis
+*.env
+
