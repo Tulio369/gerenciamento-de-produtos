@@ -14,3 +14,42 @@
 # Ignorar arquivos sensíveis
 *.env
 
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Diretório de configuração do projeto
+out/
+
+# Arquivos de configuração do sistema
+.DS_Store
+
+# Logs
+*.log
+
+# Caches e diretórios temporários
+.idea/modules.xml
+.idea/.name
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/shelf
+.idea/usage.statistics.xml
+.idea/indexLayout.xml
+.idea/streamingBuffers.xml
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/scopes
+.idea/codeStyles
+.idea/copyright
+.idea/inspectionProfiles
+.idea/fileTemplates
+.idea/jarRepositories.xml
+.idea/uiDesigner.xml
+.idea/jsLibraryMappings.xml
+
+# Diretórios usados por outras ferramentas, se existirem
+.idea/runConfigurations/
