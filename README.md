@@ -6,44 +6,55 @@ Estrutura do Projeto
 
 com.loja/
 ├── modelo/            # Classes de modelo/entidades
+
 │   └── Produto.java   # Classe que representa o produto
+
 ├── gerenciador/       # Classes de gerenciamento de dados
+
 │   └── GerenciadorProdutos.java   # Gerencia as operações de CRUD e busca
+
 ├── ui/                # Interface de usuário (console)
+
 │   └── MenuProdutos.java          # Exibe o menu de interação com o usuário
+
 ├── exception/         # Exceções personalizadas
+
 │   ├── ProdutoException.java      # Exceção geral para produtos
+
 │   └── ValidacaoException.java    # Exceção para validação de dados
+
 └── Main.java          # Classe principal para iniciar o sistema
 
 Funcionalidades
-Cadastrar Produto
+
+Cadastrar Produto:
 Solicita nome, preço, quantidade em estoque e categoria.
 Valida as entradas e adiciona o produto ao sistema.
 
-Buscar Produto por ID
+Buscar Produto por ID:
 Pesquisa o produto pelo ID e exibe suas informações.
 
-Listar Todos os Produtos
+Listar Todos os Produtos:
 Exibe a lista completa de produtos cadastrados.
 
-Atualizar Produto
+Atualizar Produto:
 Permite editar as informações de um produto existente após uma busca pelo ID.
 
-Deletar Produto
+Deletar Produto:
 Remove o produto com o ID especificado.
 
-Buscar por Nome
+Buscar por Nome:
 Exibe todos os produtos que contêm o nome especificado (busca insensível a maiúsculas/minúsculas).
 
-Buscar por Categoria
+Buscar por Categoria:
 Exibe produtos da categoria especificada.
 
-Exceções Personalizadas
+Exceções Personalizadas:
 ProdutoException: Para tratar erros gerais relacionados a produtos.
 ValidacaoException: Para tratar erros de validação (e.g., nome vazio, preço negativo).
 
-Exemplos de Uso
+Exemplos de Uso:
+
 ===== Sistema de Gerenciamento de Produtos =====
 1. Cadastrar Produto
 2. Buscar Produto por ID
@@ -56,6 +67,7 @@ Exemplos de Uso
 Escolha uma opção:
 
 Criação de Produto
+
  === Cadastro de Produto ===
  Digite o nome: Notebook
  Digite o preço: 2500.00
@@ -65,6 +77,7 @@ Criação de Produto
  ID gerado: 1
 
  Busca de Produto
+
  === Busca de Produto ===
  Digite o ID: 1
  Produto encontrado:
