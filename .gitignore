@@ -14,12 +14,6 @@
 # Ignorar arquivos sensíveis
 *.env
 
-# IntelliJ IDEA
-.idea/
-*.iws
-*.iml
-*.ipr
-
 # Diretório de configuração do projeto
 out/
 
