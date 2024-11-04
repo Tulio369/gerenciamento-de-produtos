@@ -86,7 +86,7 @@ ID: 1 | Nome: Notebook | Preço: R$ 2500,00 | Estoque: 10 |
 Categoria: Eletrônicos
 
 Requisitos
-Java: Versão 8 ou superior.
+Java: Versão 17 ou superior.
 
 Como Executar
 Clone o repositório:
