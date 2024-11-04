@@ -1,5 +1,6 @@
 Sistema de Gerenciamento de Produtos - CRUD em Java
-Descrição
+
+Descrição:
 Este é um sistema de gerenciamento de produtos implementado em Java Puro, que permite ao usuário realizar operações CRUD (Criar, Ler, Atualizar e Deletar) em produtos, além de funcionalidades de busca por ID, nome e categoria. O sistema é estruturado para rodar em ambiente de console.
 
 Estrutura do Projeto
