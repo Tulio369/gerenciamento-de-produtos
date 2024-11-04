@@ -1,0 +1,33 @@
+src/
+|-- controllers/
+|   |-- ProductController.java
+|   |-- UserController.java
+|   |-- AuthController.java
+|-- models/
+|   |-- Product.java
+|   |-- User.java
+|   |-- Order.java
+|-- repositories/
+|   |-- ProductRepository.java
+|   |-- UserRepository.java
+|   |-- OrderRepository.java
+|-- services/
+|   |-- ProductService.java
+|   |-- UserService.java
+|   |-- AuthService.java
+|-- config/
+|   |-- SecurityConfig.java
+|   |-- DatabaseConfig.java
+|   |-- AppConfig.java
+|-- utils/
+|   |-- DateUtils.java
+|   |-- FileUtils.java
+|-- views/
+|   |-- product/
+|   |   |-- list.html
+|   |   |-- detail.html
+|   |-- user/
+|       |-- login.html
+|       |-- register.html
+
+
